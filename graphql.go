@@ -28,7 +28,7 @@
 // To specify your own http.Client, use the WithHTTPClient option:
 //  httpclient := &http.Client{}
 //  client := graphql.NewClient("https://machinebox.io/graphql", graphql.WithHTTPClient(httpclient))
-package graphql
+package gqlclient
 
 import (
 	"bytes"
