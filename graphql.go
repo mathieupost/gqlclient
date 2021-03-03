@@ -251,6 +251,7 @@ type ClientOption func(*Client)
 
 type graphErr struct {
 	Message string
+	Path    []string
 }
 
 func (e graphErr) Error() string {
